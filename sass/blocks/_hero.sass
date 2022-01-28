@@ -1,0 +1,148 @@
+.header
+    display: flex
+    justify-content: space-between
+    margin: 11px
+    margin-bottom: 6%
+    margin-top: 50px
+    &-logo
+        display: flex
+        align-items: center
+        flex-basis: 10%
+    &-list
+        display: flex
+        align-items: center
+        justify-content: space-between
+        flex-basis: 45%
+        &-wrapper
+            display: flex
+            justify-content: space-between
+            flex-basis: 100%
+            margin: 0
+            padding: 0
+        &__item
+            list-style-type: none
+            font-weight: normal
+            font-size: 20px
+            &:hover
+                color:#256CFF
+
+    &-burder
+        &-menu
+            display: flex
+            flex-basis: 33%
+
+.hero
+    display: flex
+    &-text
+        display: flex
+        flex-direction: column
+        flex-basis: 50%
+        &-blocks
+            display: flex
+            justify-content: space-between
+            flex-wrap: wrap
+        &-block
+            display: flex
+            flex-direction: column
+            flex-basis: 50%
+            &:nth-child(3)
+                margin-top: 60px
+            &:nth-child(4)
+                margin-top: 60px
+                display: flex
+                flex-direction: column
+                justify-content: end
+        &-description
+            font-weight: 500
+            font-size: 25px
+            margin-bottom: 22px
+        &-title
+            font-weight: bold
+            font-size: 50px
+            color: #256CFF
+            margin-bottom: 27px
+        &-subtitle
+            font-weight: normal
+            font-size: 18px
+            max-width: 241px
+        &-video
+            margin-top: 60px
+            display: flex
+            flex-basis: 50%
+            &-text
+                margin-left: 57px
+    &-video
+        &-text
+            margin-left: 41px
+            display: flex
+            flex-direction: column
+            justify-content: end
+    &-image
+        position: relative
+        z-index: 2
+        &::before
+            content: ""
+            position: absolute
+            left: 0
+            top: 0
+            width: 329px
+            height: 208px
+            background-image: url("../img/BMW_328.png")
+            background-position: center
+            background-size: contain
+            background-repeat: no-repeat
+        &-text
+            display: flex
+            flex-direction: column
+        &-description
+            color: #256CFF
+            text-align: right
+            font-weight: normal
+            font-size: 25px
+            margin-bottom: 4px
+        &-title
+            color: #256CFF
+            text-align: right
+            font-weight: 900
+            font-size: 54px
+        &-translate
+            position: relative
+            z-index: 2
+            &::after
+                content: ""
+                position: absolute
+                right: -250px
+                top: 47%
+                width: 453px
+                height: 164px
+                background-image: url("../img/BlueLine.png")
+                background-repeat: no-repeat
+        &__img
+            max-width: 700px
+            position: relative
+            z-index: 1
+
+.footer
+    &-author
+        position: fixed
+        bottom: 19px
+        &-designer
+            font-family: Montserrat
+            font-style: normal
+            font-weight: 900
+            font-size: 15px
+            line-height: 153.4%
+            display: flex
+            align-items: center
+            color: #0066B1
+        &-normal
+            font-family: Montserrat
+            font-style: normal
+            font-weight: normal
+            font-size: 15px
+            line-height: 153.4%
+            display: flex
+            align-items: center
+            color: #0066B1
+            
+            
